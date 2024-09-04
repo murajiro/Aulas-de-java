@@ -1,0 +1,29 @@
+package Primeiro;
+public class Pessoa {
+    private String nome;
+    private int idade;
+
+
+public Pessoa(){}
+
+public Pessoa (String nome, int idade){
+    this.nome=nome;
+    this.idade=idade;
+}
+
+public String getNome(){
+    return nome;
+}
+public void setNome(){
+    this.nome=nome;
+}
+
+public int getIdade(){
+    return idade;
+}
+public void setIdade(){
+    this.idade= idade;
+}
+
+}
+
